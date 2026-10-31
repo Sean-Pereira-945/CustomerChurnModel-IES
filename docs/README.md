@@ -6,6 +6,11 @@ the charts. Start here, then read whichever page you need.
 Every number in these docs comes from the project's own code output (fixed random seed, so results
 are reproducible).
 
+## Presenting this project?
+
+👉 **[Presentation sequence (presenter runbook)](PRESENTATION.md)** — a ~10-minute talk that walks
+through these docs in order, with the visual to show and a script for each stop.
+
 ## Contents
 
 | # | Page | What it covers |
