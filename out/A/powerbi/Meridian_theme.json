@@ -1,0 +1,14 @@
+{
+  "name": "Meridian",
+  "dataColors": [
+    "#C8102E",
+    "#2F6DB5",
+    "#6B7280",
+    "#1F2328",
+    "#2E7D32",
+    "#C8102E"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2328",
+  "tableAccent": "#C8102E"
+}

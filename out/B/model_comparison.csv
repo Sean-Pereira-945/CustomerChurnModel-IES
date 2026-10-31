@@ -1,0 +1,5 @@
+model,cv_pr_auc,holdout_pr_auc,holdout_roc_auc
+Baseline (tenure<1yr rule),0.1578,0.1578,
+Logistic regression (with recency),0.5207,0.5624,0.8444
+LightGBM (with recency),0.4874,0.5416,0.8318
+Logistic regression (no recency / deployed),0.4747,0.5017,0.8176

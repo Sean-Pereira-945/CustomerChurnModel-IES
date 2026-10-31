@@ -1,0 +1,410 @@
+{
+  "config": "{\"version\": \"5.43\", \"activeSectionIndex\": 0, \"defaultDrillFilterOtherVisuals\": true}",
+  "layoutOptimization": 0,
+  "resourcePackages": [],
+  "sections": [
+    {
+      "name": "5f4f24cd-8706-4f54-8ea3-a891b8397af7",
+      "displayName": "1 Executive overview",
+      "filters": "[]",
+      "ordinal": 0,
+      "visualContainers": [
+        {
+          "x": 1070,
+          "y": 15,
+          "z": 0,
+          "width": 195,
+          "height": 95,
+          "config": "{\"name\": \"b33bdd6a-2efa-4b25-b489-7c877c1ade17\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1070, \"y\": 15, \"z\": 0, \"width\": 195, \"height\": 95, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"slicer\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"fact_customers.data_scope\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"data_scope\"}, \"Name\": \"fact_customers.data_scope\", \"NativeReferenceName\": \"data_scope\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Data scope'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 15,
+          "z": 1,
+          "width": 200,
+          "height": 95,
+          "config": "{\"name\": \"f14c4e3f-88f9-4c6b-8fe2-c9f41a401177\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 15, \"z\": 1, \"width\": 200, \"height\": 95, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.Customers\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Customers\"}, \"Name\": \"_Measures.Customers\", \"NativeReferenceName\": \"Customers\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Customers'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 230,
+          "y": 15,
+          "z": 2,
+          "width": 200,
+          "height": 95,
+          "config": "{\"name\": \"03b2e9b9-5bf6-49eb-aa74-f2801b1d7011\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 230, \"y\": 15, \"z\": 2, \"width\": 200, \"height\": 95, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Churn Rate'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 440,
+          "y": 15,
+          "z": 3,
+          "width": 200,
+          "height": 95,
+          "config": "{\"name\": \"6548ab13-65b6-4d88-94aa-8c634626de45\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 15, \"z\": 3, \"width\": 200, \"height\": 95, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.Balance Lost AED\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Balance Lost AED\"}, \"Name\": \"_Measures.Balance Lost AED\", \"NativeReferenceName\": \"Balance Lost AED\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Balance Lost (AED)'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 650,
+          "y": 15,
+          "z": 4,
+          "width": 200,
+          "height": 95,
+          "config": "{\"name\": \"8414fae9-165d-4cf8-ace9-d7ef039ef60f\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 650, \"y\": 15, \"z\": 4, \"width\": 200, \"height\": 95, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.Pct Balance Lost\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Pct Balance Lost\"}, \"Name\": \"_Measures.Pct Balance Lost\", \"NativeReferenceName\": \"Pct Balance Lost\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'% Balance Lost'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 125,
+          "z": 5,
+          "width": 600,
+          "height": 290,
+          "config": "{\"name\": \"8de15b20-e5de-4bc5-84e7-028cdb2016f7\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 125, \"z\": 5, \"width\": 600, \"height\": 290, \"tabOrder\": 5}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"dim_tenure.tenure_label\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"d\", \"Entity\": \"dim_tenure\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"d\"}}, \"Property\": \"tenure_label\"}, \"Name\": \"dim_tenure.tenure_label\", \"NativeReferenceName\": \"tenure_label\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Churn is highest in the first year'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 640,
+          "y": 125,
+          "z": 6,
+          "width": 620,
+          "height": 290,
+          "config": "{\"name\": \"978ea6d5-d696-4326-b385-15b5d6a893bf\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 640, \"y\": 125, \"z\": 6, \"width\": 620, \"height\": 290, \"tabOrder\": 6}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"dim_segment.customer_segment\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Share of Churners\", \"active\": true}, {\"queryRef\": \"_Measures.Share of Balance Lost\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"d\", \"Entity\": \"dim_segment\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"d\"}}, \"Property\": \"customer_segment\"}, \"Name\": \"dim_segment.customer_segment\", \"NativeReferenceName\": \"customer_segment\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Share of Churners\"}, \"Name\": \"_Measures.Share of Churners\", \"NativeReferenceName\": \"Share of Churners\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Share of Balance Lost\"}, \"Name\": \"_Measures.Share of Balance Lost\", \"NativeReferenceName\": \"Share of Balance Lost\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Mass Market drives volume; higher segments drive the money lost'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 425,
+          "z": 7,
+          "width": 1240,
+          "height": 280,
+          "config": "{\"name\": \"28372326-a37e-475a-978a-72c6ce0aa514\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 425, \"z\": 7, \"width\": 1240, \"height\": 280, \"tabOrder\": 7}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"dim_segment.customer_segment\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"d\", \"Entity\": \"dim_segment\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"d\"}}, \"Property\": \"customer_segment\"}, \"Name\": \"dim_segment.customer_segment\", \"NativeReferenceName\": \"customer_segment\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Churn rate falls as segment value rises'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "0aac203f-bb0e-4a99-ac5a-989082dcf0d3",
+      "displayName": "2 Behavioural drivers",
+      "filters": "[]",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "x": 1070,
+          "y": 15,
+          "z": 0,
+          "width": 195,
+          "height": 95,
+          "config": "{\"name\": \"ef52a3c2-f8b9-4736-956a-70466d1c4dd0\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1070, \"y\": 15, \"z\": 0, \"width\": 195, \"height\": 95, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"slicer\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"fact_customers.data_scope\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"data_scope\"}, \"Name\": \"fact_customers.data_scope\", \"NativeReferenceName\": \"data_scope\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Data scope'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 125,
+          "z": 1,
+          "width": 405,
+          "height": 270,
+          "config": "{\"name\": \"a962a481-76b7-4962-938d-1ee54d1cb90e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 125, \"z\": 1, \"width\": 405, \"height\": 270, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"fact_customers.products_band\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"products_band\"}, \"Name\": \"fact_customers.products_band\", \"NativeReferenceName\": \"products_band\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Single-product customers churn at 2x+ the average'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 435,
+          "y": 125,
+          "z": 2,
+          "width": 405,
+          "height": 270,
+          "config": "{\"name\": \"bb61101c-6cf0-4d76-bf1c-a4fc4fd4d4d9\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 435, \"y\": 125, \"z\": 2, \"width\": 405, \"height\": 270, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"fact_customers.recency_band\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"recency_band\"}, \"Name\": \"fact_customers.recency_band\", \"NativeReferenceName\": \"recency_band\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'90+ days idle: churn triples'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 850,
+          "y": 125,
+          "z": 3,
+          "width": 410,
+          "height": 270,
+          "config": "{\"name\": \"4b491236-c8c7-4ef9-be62-83556b4c62f5\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 850, \"y\": 125, \"z\": 3, \"width\": 410, \"height\": 270, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"fact_customers.engagement_band\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"engagement_band\"}, \"Name\": \"fact_customers.engagement_band\", \"NativeReferenceName\": \"engagement_band\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Churn falls as digital engagement rises'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 410,
+          "z": 4,
+          "width": 405,
+          "height": 295,
+          "config": "{\"name\": \"7574ed89-5bd6-4df0-a6d3-d8a8899dce78\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 410, \"z\": 4, \"width\": 405, \"height\": 295, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"fact_customers.complaint_band\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"complaint_band\"}, \"Name\": \"fact_customers.complaint_band\", \"NativeReferenceName\": \"complaint_band\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'2+ complaints: churn doubles'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 435,
+          "y": 410,
+          "z": 5,
+          "width": 405,
+          "height": 295,
+          "config": "{\"name\": \"40d9c618-5a81-4bf3-90e4-dc4f5735d33a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 435, \"y\": 410, \"z\": 5, \"width\": 405, \"height\": 295, \"tabOrder\": 5}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"fact_customers.nps_band\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"nps_band\"}, \"Name\": \"fact_customers.nps_band\", \"NativeReferenceName\": \"nps_band\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Negative NPS churns at 1.7x the average'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 850,
+          "y": 410,
+          "z": 6,
+          "width": 410,
+          "height": 295,
+          "config": "{\"name\": \"8831376e-4029-4453-8c27-1e9ec3e576ae\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 850, \"y\": 410, \"z\": 6, \"width\": 410, \"height\": 295, \"tabOrder\": 6}}], \"singleVisual\": {\"visualType\": \"pivotTable\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Rows\": [{\"queryRef\": \"dim_tenure.tenure_label\", \"active\": true}], \"Columns\": [{\"queryRef\": \"fact_customers.products_band\", \"active\": true}], \"Values\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"d\", \"Entity\": \"dim_tenure\", \"Type\": 0}, {\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"d\"}}, \"Property\": \"tenure_label\"}, \"Name\": \"dim_tenure.tenure_label\", \"NativeReferenceName\": \"tenure_label\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"products_band\"}, \"Name\": \"fact_customers.products_band\", \"NativeReferenceName\": \"products_band\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'New + single product: more than half leave'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "47677041-30bf-4e2a-9948-7196cb33bae5",
+      "displayName": "3 Relationship & value",
+      "filters": "[]",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "x": 1070,
+          "y": 15,
+          "z": 0,
+          "width": 195,
+          "height": 95,
+          "config": "{\"name\": \"11e978ac-8d22-4852-b37b-e01c68a732c4\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1070, \"y\": 15, \"z\": 0, \"width\": 195, \"height\": 95, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"slicer\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"fact_customers.data_scope\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"data_scope\"}, \"Name\": \"fact_customers.data_scope\", \"NativeReferenceName\": \"data_scope\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Data scope'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 125,
+          "z": 1,
+          "width": 620,
+          "height": 300,
+          "config": "{\"name\": \"8efb2964-2af9-426e-84ca-9797e01e1bfb\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 125, \"z\": 1, \"width\": 620, \"height\": 300, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"dim_segment.customer_segment\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate No RM\", \"active\": true}, {\"queryRef\": \"_Measures.Churn Rate With RM\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"d\", \"Entity\": \"dim_segment\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"d\"}}, \"Property\": \"customer_segment\"}, \"Name\": \"dim_segment.customer_segment\", \"NativeReferenceName\": \"customer_segment\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate No RM\"}, \"Name\": \"_Measures.Churn Rate No RM\", \"NativeReferenceName\": \"Churn Rate No RM\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate With RM\"}, \"Name\": \"_Measures.Churn Rate With RM\", \"NativeReferenceName\": \"Churn Rate With RM\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Customers with an RM churn at about half the rate'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 660,
+          "y": 125,
+          "z": 2,
+          "width": 600,
+          "height": 300,
+          "config": "{\"name\": \"85fc03e3-4fb3-4120-aa74-cb209813a9ec\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 660, \"y\": 125, \"z\": 2, \"width\": 600, \"height\": 300, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"pivotTable\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Rows\": [{\"queryRef\": \"dim_segment.customer_segment\", \"active\": true}], \"Columns\": [{\"queryRef\": \"dim_tenure.tenure_label\", \"active\": true}], \"Values\": [{\"queryRef\": \"_Measures.Balance Lost AED\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"d\", \"Entity\": \"dim_segment\", \"Type\": 0}, {\"Name\": \"d2\", \"Entity\": \"dim_tenure\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"d\"}}, \"Property\": \"customer_segment\"}, \"Name\": \"dim_segment.customer_segment\", \"NativeReferenceName\": \"customer_segment\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"d2\"}}, \"Property\": \"tenure_label\"}, \"Name\": \"dim_tenure.tenure_label\", \"NativeReferenceName\": \"tenure_label\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Balance Lost AED\"}, \"Name\": \"_Measures.Balance Lost AED\", \"NativeReferenceName\": \"Balance Lost AED\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Where the lost balances sit (AED)'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 435,
+          "z": 3,
+          "width": 300,
+          "height": 130,
+          "config": "{\"name\": \"b6a7700f-8230-4cd3-9a5f-b57c8d95c843\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 435, \"z\": 3, \"width\": 300, \"height\": 130, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.Pct With RM\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Pct With RM\"}, \"Name\": \"_Measures.Pct With RM\", \"NativeReferenceName\": \"Pct With RM\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'% Mass Affluent with an RM'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 340,
+          "y": 435,
+          "z": 4,
+          "width": 920,
+          "height": 130,
+          "config": "{\"name\": \"3a4d183f-f736-4aa8-9b62-5e8d2d057649\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 340, \"y\": 435, \"z\": 4, \"width\": 920, \"height\": 130, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"RM coverage is associated with lower churn, but RMs may be assigned to already-loyal customers. This must be tested in the pilot before we claim it causes retention.\", \"textStyle\": {\"fontSize\": \"11pt\"}}], \"horizontalTextAlignment\": \"left\"}]}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "186381a3-1212-47b0-8753-b1ee68217b31",
+      "displayName": "4 Data quality & lineage",
+      "filters": "[]",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "x": 1070,
+          "y": 15,
+          "z": 0,
+          "width": 195,
+          "height": 95,
+          "config": "{\"name\": \"cf26188b-7efa-4d49-8efd-708e7889e559\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1070, \"y\": 15, \"z\": 0, \"width\": 195, \"height\": 95, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"slicer\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"fact_customers.data_scope\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"data_scope\"}, \"Name\": \"fact_customers.data_scope\", \"NativeReferenceName\": \"data_scope\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Data scope'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 125,
+          "z": 1,
+          "width": 290,
+          "height": 120,
+          "config": "{\"name\": \"49a0569e-7793-40ee-bdff-8fb6eda033b4\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 125, \"z\": 1, \"width\": 290, \"height\": 120, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.DQ Products Below Flags\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"DQ Products Below Flags\"}, \"Name\": \"_Measures.DQ Products Below Flags\", \"NativeReferenceName\": \"DQ Products Below Flags\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Products below flags'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 320,
+          "y": 125,
+          "z": 2,
+          "width": 290,
+          "height": 120,
+          "config": "{\"name\": \"4c617100-fc6a-4d89-bb0a-1e2fca39a30c\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 320, \"y\": 125, \"z\": 2, \"width\": 290, \"height\": 120, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.DQ Tenure Above Adult Years\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"DQ Tenure Above Adult Years\"}, \"Name\": \"_Measures.DQ Tenure Above Adult Years\", \"NativeReferenceName\": \"DQ Tenure Above Adult Years\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Tenure above adult years'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 255,
+          "z": 3,
+          "width": 590,
+          "height": 200,
+          "config": "{\"name\": \"fefc3b1b-190c-4119-ae46-7686be076320\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 255, \"z\": 3, \"width\": 590, \"height\": 200, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"fact_customers.data_scope\", \"active\": true}, {\"queryRef\": \"_Measures.Customers\"}, {\"queryRef\": \"_Measures.Churn Rate\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"data_scope\"}, \"Name\": \"fact_customers.data_scope\", \"NativeReferenceName\": \"data_scope\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Customers\"}, \"Name\": \"_Measures.Customers\", \"NativeReferenceName\": \"Customers\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Scope: rows and churn'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 640,
+          "y": 125,
+          "z": 4,
+          "width": 620,
+          "height": 330,
+          "config": "{\"name\": \"8cd764af-08a8-4eb0-bb22-89f5c9f4795a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 640, \"y\": 125, \"z\": 4, \"width\": 620, \"height\": 330, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"dim_segment.customer_segment\", \"active\": true}], \"Series\": [{\"queryRef\": \"fact_customers.data_scope\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Churn Rate\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"d\", \"Entity\": \"dim_segment\", \"Type\": 0}, {\"Name\": \"f\", \"Entity\": \"fact_customers\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"d\"}}, \"Property\": \"customer_segment\"}, \"Name\": \"dim_segment.customer_segment\", \"NativeReferenceName\": \"customer_segment\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"data_scope\"}, \"Name\": \"fact_customers.data_scope\", \"NativeReferenceName\": \"data_scope\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Churn Rate\"}, \"Name\": \"_Measures.Churn Rate\", \"NativeReferenceName\": \"Churn Rate\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Synthetic rows reproduce real churn by segment'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 470,
+          "z": 5,
+          "width": 1240,
+          "height": 235,
+          "config": "{\"name\": \"b05e6842-86ab-4f7c-8f98-e2dd8224299d\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 470, \"z\": 5, \"width\": 1240, \"height\": 235, \"tabOrder\": 5}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"10,000 real customers, cleaned and checksum-verified against the source summary. 40,000 synthetic rows generated with a stratified Gaussian copula fitted on 8,000 training customers only. Data-quality issues are flagged, not removed. Headline figures use real data only. Set the Data scope slicer to Real for headline numbers.\", \"textStyle\": {\"fontSize\": \"11pt\"}}], \"horizontalTextAlignment\": \"left\"}]}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "0de5c1b8-5013-42b1-b958-3721548b8222",
+      "displayName": "5 Retention priority",
+      "filters": "[]",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 15,
+          "z": 0,
+          "width": 240,
+          "height": 100,
+          "config": "{\"name\": \"c1c1e0fc-2c1d-46c0-a668-6c3a5805468f\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 15, \"z\": 0, \"width\": 240, \"height\": 100, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.Priority Customers\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Priority Customers\"}, \"Name\": \"_Measures.Priority Customers\", \"NativeReferenceName\": \"Priority Customers\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Priority customers (real)'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 270,
+          "y": 15,
+          "z": 1,
+          "width": 240,
+          "height": 100,
+          "config": "{\"name\": \"f1abf878-ebb4-4218-9a99-69cb1a7ea492\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 270, \"y\": 15, \"z\": 1, \"width\": 240, \"height\": 100, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"card\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"_Measures.Expected Balance At Risk\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Expected Balance At Risk\"}, \"Name\": \"_Measures.Expected Balance At Risk\", \"NativeReferenceName\": \"Expected Balance At Risk\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Expected balance at risk (AED)'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 125,
+          "z": 2,
+          "width": 490,
+          "height": 300,
+          "config": "{\"name\": \"0270485f-b682-4892-9837-3fcb2151c909\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 125, \"z\": 2, \"width\": 490, \"height\": 300, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"priority_list.priority_tier\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Expected Balance At Risk\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"p\", \"Entity\": \"priority_list\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"p\"}}, \"Property\": \"priority_tier\"}, \"Name\": \"priority_list.priority_tier\", \"NativeReferenceName\": \"priority_tier\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Expected Balance At Risk\"}, \"Name\": \"_Measures.Expected Balance At Risk\", \"NativeReferenceName\": \"Expected Balance At Risk\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Expected balance at risk by tier'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 20,
+          "y": 435,
+          "z": 3,
+          "width": 490,
+          "height": 270,
+          "config": "{\"name\": \"62885e12-483d-4f40-bb1a-de3e5fc49873\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 435, \"z\": 3, \"width\": 490, \"height\": 270, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Category\": [{\"queryRef\": \"priority_list.priority_tier\", \"active\": true}], \"Y\": [{\"queryRef\": \"_Measures.Priority Customers\", \"active\": true}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"p\", \"Entity\": \"priority_list\", \"Type\": 0}, {\"Name\": \"_\", \"Entity\": \"_Measures\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"p\"}}, \"Property\": \"priority_tier\"}, \"Name\": \"priority_list.priority_tier\", \"NativeReferenceName\": \"priority_tier\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"_\"}}, \"Property\": \"Priority Customers\"}, \"Name\": \"_Measures.Priority Customers\", \"NativeReferenceName\": \"Priority Customers\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Customers by tier'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        },
+        {
+          "x": 530,
+          "y": 15,
+          "z": 4,
+          "width": 730,
+          "height": 690,
+          "config": "{\"name\": \"f46a68eb-31d1-4665-997c-d371a2bcfd18\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 530, \"y\": 15, \"z\": 4, \"width\": 730, \"height\": 690, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"drillFilterOtherVisuals\": true, \"projections\": {\"Values\": [{\"queryRef\": \"priority_list.priority_tier\", \"active\": true}, {\"queryRef\": \"priority_list.customer_id\"}, {\"queryRef\": \"priority_list.churn_probability\"}, {\"queryRef\": \"priority_list.expected_balance_at_risk\"}, {\"queryRef\": \"priority_list.top_3_reasons\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"p\", \"Entity\": \"priority_list\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"p\"}}, \"Property\": \"priority_tier\"}, \"Name\": \"priority_list.priority_tier\", \"NativeReferenceName\": \"priority_tier\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"p\"}}, \"Property\": \"customer_id\"}, \"Name\": \"priority_list.customer_id\", \"NativeReferenceName\": \"customer_id\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"p\"}}, \"Property\": \"churn_probability\"}, \"Name\": \"priority_list.churn_probability\", \"NativeReferenceName\": \"churn_probability\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"p\"}}, \"Property\": \"expected_balance_at_risk\"}, \"Name\": \"priority_list.expected_balance_at_risk\", \"NativeReferenceName\": \"expected_balance_at_risk\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"p\"}}, \"Property\": \"top_3_reasons\"}, \"Name\": \"priority_list.top_3_reasons\", \"NativeReferenceName\": \"top_3_reasons\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Priority list (sort by expected balance at risk; apply Top 50)'\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "",
+          "dataTransforms": ""
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "pods": [],
+  "publicCustomVisuals": []
+}

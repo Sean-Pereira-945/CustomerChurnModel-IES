@@ -1,0 +1,148 @@
+{
+  "chosen_model": "Logistic regression",
+  "cv_pr_auc": 0.5215,
+  "cv_pr_auc_logreg": 0.5215,
+  "cv_pr_auc_lightgbm": 0.4725,
+  "pr_auc": 0.5602,
+  "roc_auc": 0.846,
+  "recall_at_thr": 0.4335,
+  "precision_at_thr": 0.5524,
+  "threshold": 0.4,
+  "top_decile_capture": 0.3892,
+  "baseline_pr_auc": 0.1578,
+  "base_churn_rate": 0.1578,
+  "n_customers": 10000,
+  "n_churned": 1578,
+  "bal_p75": 26866.75,
+  "capacity_n": 500,
+  "tier_counts": {
+    "T4 Monitor": 6497,
+    "T2 Protect": 2446,
+    "T3 Automated save": 1003,
+    "T1 Save now": 54
+  },
+  "aed_protected_value_weighted": 9594264.0,
+  "aed_protected_prob_only": 2676552.0,
+  "aed_protected_random": 1123423.25,
+  "value_vs_prob_ratio": 3.58,
+  "drivers": {
+    "by_products": [
+      {
+        "label": "1",
+        "rate": 0.3607
+      },
+      {
+        "label": "2",
+        "rate": 0.1215
+      },
+      {
+        "label": "3",
+        "rate": 0.0582
+      },
+      {
+        "label": "4+",
+        "rate": 0.0443
+      }
+    ],
+    "by_recency": [
+      {
+        "label": "0-30",
+        "rate": 0.1176
+      },
+      {
+        "label": "31-60",
+        "rate": 0.1968
+      },
+      {
+        "label": "61-90",
+        "rate": 0.2969
+      },
+      {
+        "label": "90+",
+        "rate": 0.4872
+      }
+    ],
+    "by_engagement": [
+      {
+        "label": "0-20",
+        "rate": 0.3706
+      },
+      {
+        "label": "21-40",
+        "rate": 0.2528
+      },
+      {
+        "label": "41-60",
+        "rate": 0.1613
+      },
+      {
+        "label": "61-80",
+        "rate": 0.0993
+      },
+      {
+        "label": "81-100",
+        "rate": 0.0555
+      }
+    ],
+    "by_segment": [
+      {
+        "label": "Mass Market",
+        "rate": 0.2178
+      },
+      {
+        "label": "Mass Affluent",
+        "rate": 0.1196
+      },
+      {
+        "label": "Affluent",
+        "rate": 0.0526
+      },
+      {
+        "label": "Private Banking",
+        "rate": 0.0409
+      }
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "single_product",
+      "importance": 1.0
+    },
+    {
+      "feature": "last_transaction_days_ago",
+      "importance": 0.9306
+    },
+    {
+      "feature": "relationship_manager_assigned",
+      "importance": 0.7973
+    },
+    {
+      "feature": "customer_segment_Mass Affluent",
+      "importance": 0.7714
+    },
+    {
+      "feature": "digital_engagement_score",
+      "importance": 0.7123
+    },
+    {
+      "feature": "tenure_years",
+      "importance": 0.6692
+    },
+    {
+      "feature": "complaint_count_last_year",
+      "importance": 0.5695
+    },
+    {
+      "feature": "customer_segment_Private Banking",
+      "importance": 0.5559
+    },
+    {
+      "feature": "nps_score",
+      "importance": 0.5094
+    },
+    {
+      "feature": "num_products",
+      "importance": 0.481
+    }
+  ]
+}

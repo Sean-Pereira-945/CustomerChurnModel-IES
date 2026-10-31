@@ -1,0 +1,6 @@
+tenure_band,tenure_sort,tenure_label
+Less than 1,1,<1 yr
+1 to 3,2,1-3 yrs
+3 to 7,3,3-7 yrs
+7 to 15,4,7-15 yrs
+> 15,5,15+ yrs

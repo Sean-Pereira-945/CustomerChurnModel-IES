@@ -1,0 +1,574 @@
+{
+  "name": "Meridian",
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "fact_customers",
+        "lineageTag": "634fc735-7582-43e0-949f-a921bfa79f36",
+        "columns": [
+          {
+            "name": "customer_id",
+            "dataType": "string",
+            "sourceColumn": "customer_id",
+            "summarizeBy": "none",
+            "lineageTag": "510a0f6e-f213-4147-9751-e23d5286178e"
+          },
+          {
+            "name": "data_scope",
+            "dataType": "string",
+            "sourceColumn": "data_scope",
+            "summarizeBy": "none",
+            "lineageTag": "9ef5161a-453e-48c5-9d96-fc83b3f867dc"
+          },
+          {
+            "name": "data_split",
+            "dataType": "string",
+            "sourceColumn": "data_split",
+            "summarizeBy": "none",
+            "lineageTag": "afce9d19-576e-42c6-9368-9af4e707f882"
+          },
+          {
+            "name": "customer_segment",
+            "dataType": "string",
+            "sourceColumn": "customer_segment",
+            "summarizeBy": "none",
+            "lineageTag": "f59b369a-9a6a-456c-a434-3aac0d0972b3",
+            "isHidden": true
+          },
+          {
+            "name": "tenure_band",
+            "dataType": "string",
+            "sourceColumn": "tenure_band",
+            "summarizeBy": "none",
+            "lineageTag": "359e7708-8c80-44cf-a414-231a2e280832",
+            "isHidden": true
+          },
+          {
+            "name": "tenure_years",
+            "dataType": "double",
+            "sourceColumn": "tenure_years",
+            "summarizeBy": "none",
+            "lineageTag": "1ad9519c-aa4f-471e-9835-07860bc3e85a"
+          },
+          {
+            "name": "num_products",
+            "dataType": "int64",
+            "sourceColumn": "num_products",
+            "summarizeBy": "none",
+            "lineageTag": "0fe11d97-537b-4d97-b370-af8106fa0d6a"
+          },
+          {
+            "name": "products_band",
+            "dataType": "string",
+            "sourceColumn": "products_band",
+            "summarizeBy": "none",
+            "lineageTag": "dc213a61-905e-4f52-95dd-ec2cc15fa08b",
+            "sortByColumn": "products_band_sort"
+          },
+          {
+            "name": "recency_band",
+            "dataType": "string",
+            "sourceColumn": "recency_band",
+            "summarizeBy": "none",
+            "lineageTag": "a7261bc1-d136-4760-8866-2cf375cacf01",
+            "sortByColumn": "recency_band_sort"
+          },
+          {
+            "name": "engagement_band",
+            "dataType": "string",
+            "sourceColumn": "engagement_band",
+            "summarizeBy": "none",
+            "lineageTag": "724693d8-2eff-44da-8c49-06dfe7dc620b",
+            "sortByColumn": "engagement_band_sort"
+          },
+          {
+            "name": "complaint_band",
+            "dataType": "string",
+            "sourceColumn": "complaint_band",
+            "summarizeBy": "none",
+            "lineageTag": "621a54df-67cc-4cf7-a8e6-86c7f893371d",
+            "sortByColumn": "complaint_band_sort"
+          },
+          {
+            "name": "nps_band",
+            "dataType": "string",
+            "sourceColumn": "nps_band",
+            "summarizeBy": "none",
+            "lineageTag": "8be9567e-2ccf-445c-b2e4-615dad3f55eb",
+            "sortByColumn": "nps_band_sort"
+          },
+          {
+            "name": "rm_status",
+            "dataType": "string",
+            "sourceColumn": "rm_status",
+            "summarizeBy": "none",
+            "lineageTag": "bf34251e-26b3-4bb0-b6dc-049c73345401"
+          },
+          {
+            "name": "avg_monthly_balance",
+            "dataType": "double",
+            "sourceColumn": "avg_monthly_balance",
+            "summarizeBy": "none",
+            "lineageTag": "c31c59d2-562e-4521-bbc6-ac06d335bd2b"
+          },
+          {
+            "name": "churned",
+            "dataType": "int64",
+            "sourceColumn": "churned",
+            "summarizeBy": "none",
+            "lineageTag": "8060ad8f-239c-4904-90de-f9d297aff257"
+          },
+          {
+            "name": "dq_products_lt_flags",
+            "dataType": "int64",
+            "sourceColumn": "dq_products_lt_flags",
+            "summarizeBy": "none",
+            "lineageTag": "b3db630a-ca8e-45fb-a50c-fc01e238500f"
+          },
+          {
+            "name": "dq_tenure_gt_adult_years",
+            "dataType": "int64",
+            "sourceColumn": "dq_tenure_gt_adult_years",
+            "summarizeBy": "none",
+            "lineageTag": "79ba4131-7dee-4375-b9c7-97519571b2ce"
+          },
+          {
+            "name": "products_band_sort",
+            "dataType": "int64",
+            "sourceColumn": "products_band_sort",
+            "summarizeBy": "none",
+            "lineageTag": "3dd59430-3efe-44e5-9239-36839c9b59a7",
+            "isHidden": true
+          },
+          {
+            "name": "recency_band_sort",
+            "dataType": "int64",
+            "sourceColumn": "recency_band_sort",
+            "summarizeBy": "none",
+            "lineageTag": "f753a020-f073-4157-8492-15884f53647f",
+            "isHidden": true
+          },
+          {
+            "name": "engagement_band_sort",
+            "dataType": "int64",
+            "sourceColumn": "engagement_band_sort",
+            "summarizeBy": "none",
+            "lineageTag": "7f19d5d4-70eb-4f39-9bd5-6e0bd1297258",
+            "isHidden": true
+          },
+          {
+            "name": "complaint_band_sort",
+            "dataType": "int64",
+            "sourceColumn": "complaint_band_sort",
+            "summarizeBy": "none",
+            "lineageTag": "37953c78-7169-4973-95ec-653063c69c92",
+            "isHidden": true
+          },
+          {
+            "name": "nps_band_sort",
+            "dataType": "int64",
+            "sourceColumn": "nps_band_sort",
+            "summarizeBy": "none",
+            "lineageTag": "aeefe2fa-9ca8-498f-80af-a37728bfb375",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_customers",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\SEAN\\OneDrive\\Desktop\\IES\\meridian_retention_kit\\out\\A\\powerbi\\data\\fact_customers.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"customer_id\", type text}, {\"data_scope\", type text}, {\"data_split\", type text}, {\"customer_segment\", type text}, {\"tenure_band\", type text}, {\"tenure_years\", type number}, {\"num_products\", Int64.Type}, {\"products_band\", type text}, {\"recency_band\", type text}, {\"engagement_band\", type text}, {\"complaint_band\", type text}, {\"nps_band\", type text}, {\"rm_status\", type text}, {\"avg_monthly_balance\", type number}, {\"churned\", Int64.Type}, {\"dq_products_lt_flags\", Int64.Type}, {\"dq_tenure_gt_adult_years\", Int64.Type}, {\"products_band_sort\", Int64.Type}, {\"recency_band_sort\", Int64.Type}, {\"engagement_band_sort\", Int64.Type}, {\"complaint_band_sort\", Int64.Type}, {\"nps_band_sort\", Int64.Type}})",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_segment",
+        "lineageTag": "ea88fc05-247f-4222-8968-ebf8c7821954",
+        "columns": [
+          {
+            "name": "customer_segment",
+            "dataType": "string",
+            "sourceColumn": "customer_segment",
+            "summarizeBy": "none",
+            "lineageTag": "52b3c5e6-7b14-468a-8a19-5def6b66d2bd",
+            "sortByColumn": "segment_sort"
+          },
+          {
+            "name": "segment_sort",
+            "dataType": "int64",
+            "sourceColumn": "segment_sort",
+            "summarizeBy": "none",
+            "lineageTag": "89e3c863-5a67-4cd7-9d4c-79a4ed16542b",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_segment",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\SEAN\\OneDrive\\Desktop\\IES\\meridian_retention_kit\\out\\A\\powerbi\\data\\dim_segment.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"customer_segment\", type text}, {\"segment_sort\", Int64.Type}})",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_tenure",
+        "lineageTag": "9ddc8416-832a-4e25-92ee-96f7bb415b0b",
+        "columns": [
+          {
+            "name": "tenure_band",
+            "dataType": "string",
+            "sourceColumn": "tenure_band",
+            "summarizeBy": "none",
+            "lineageTag": "9aef9b85-fbc7-4943-a18a-3bc8db560111",
+            "isHidden": true
+          },
+          {
+            "name": "tenure_sort",
+            "dataType": "int64",
+            "sourceColumn": "tenure_sort",
+            "summarizeBy": "none",
+            "lineageTag": "1d49541a-f638-4bf1-8e5d-c6a4606d8073",
+            "isHidden": true
+          },
+          {
+            "name": "tenure_label",
+            "dataType": "string",
+            "sourceColumn": "tenure_label",
+            "summarizeBy": "none",
+            "lineageTag": "16341993-8a1c-4c20-a97c-b1fa1f4404c6",
+            "sortByColumn": "tenure_sort"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_tenure",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\SEAN\\OneDrive\\Desktop\\IES\\meridian_retention_kit\\out\\A\\powerbi\\data\\dim_tenure.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"tenure_band\", type text}, {\"tenure_sort\", Int64.Type}, {\"tenure_label\", type text}})",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "priority_list",
+        "lineageTag": "dfcbc51a-1e56-4aa7-989a-3846fa08929d",
+        "columns": [
+          {
+            "name": "customer_id",
+            "dataType": "string",
+            "sourceColumn": "customer_id",
+            "summarizeBy": "none",
+            "lineageTag": "7525eafa-c479-4da2-a64f-0415dd3d1a25"
+          },
+          {
+            "name": "churn_probability",
+            "dataType": "double",
+            "sourceColumn": "churn_probability",
+            "summarizeBy": "none",
+            "lineageTag": "c95ec1e3-89a5-4566-8cb5-a6e2c13a17a6"
+          },
+          {
+            "name": "avg_monthly_balance",
+            "dataType": "double",
+            "sourceColumn": "avg_monthly_balance",
+            "summarizeBy": "none",
+            "lineageTag": "169424b9-9fb3-4d18-99f0-e2cd509fe442"
+          },
+          {
+            "name": "expected_balance_at_risk",
+            "dataType": "double",
+            "sourceColumn": "expected_balance_at_risk",
+            "summarizeBy": "none",
+            "lineageTag": "a5a8b4bf-c473-4575-a4c2-c0f7332529a5"
+          },
+          {
+            "name": "priority_tier",
+            "dataType": "string",
+            "sourceColumn": "priority_tier",
+            "summarizeBy": "none",
+            "lineageTag": "56477276-208b-4806-957d-0ed142dca37f"
+          },
+          {
+            "name": "top_3_reasons",
+            "dataType": "string",
+            "sourceColumn": "top_3_reasons",
+            "summarizeBy": "none",
+            "lineageTag": "e0e8e6f8-3662-49c0-a5c0-2635ba31a58d"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "priority_list",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\SEAN\\OneDrive\\Desktop\\IES\\meridian_retention_kit\\out\\A\\powerbi\\data\\priority_list.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"customer_id\", type text}, {\"churn_probability\", type number}, {\"avg_monthly_balance\", type number}, {\"expected_balance_at_risk\", type number}, {\"priority_tier\", type text}, {\"top_3_reasons\", type text}})",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Measures",
+        "lineageTag": "7e626714-effa-43ba-a4a5-b9c08a8745c7",
+        "columns": [
+          {
+            "name": "_",
+            "dataType": "int64",
+            "sourceColumn": "_",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "lineageTag": "4f741611-4f3c-4d85-a21a-6b7f06b39b59"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #table(type table [_ = Int64.Type], {{1}})",
+                "in",
+                "    Source"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Customers",
+            "expression": "COUNTROWS ( fact_customers )",
+            "formatString": "#,0",
+            "displayFolder": "1 Volume",
+            "lineageTag": "53ed7bad-5704-448e-a7d7-13ef41f008ce"
+          },
+          {
+            "name": "Churned Customers",
+            "expression": "CALCULATE ( COUNTROWS ( fact_customers ), fact_customers[churned] = 1 )",
+            "formatString": "#,0",
+            "displayFolder": "1 Volume",
+            "lineageTag": "89bfeadd-fa3c-4a29-9603-02563d57a994"
+          },
+          {
+            "name": "Retained Customers",
+            "expression": "[Customers] - [Churned Customers]",
+            "formatString": "#,0",
+            "displayFolder": "1 Volume",
+            "lineageTag": "864dd322-dc4b-422f-8220-1931944613f0"
+          },
+          {
+            "name": "Churn Rate",
+            "expression": "DIVIDE ( [Churned Customers], [Customers] )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Rates",
+            "lineageTag": "6ee32c6d-c885-43b3-84f2-0c674f49593c"
+          },
+          {
+            "name": "Base Churn Rate",
+            "expression": "CALCULATE ( [Churn Rate], ALLEXCEPT ( fact_customers, fact_customers[data_scope] ) )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Rates",
+            "lineageTag": "41c7e601-bc5c-436d-a9f8-9c85a0134b32"
+          },
+          {
+            "name": "Churn Rate vs Base",
+            "expression": "[Churn Rate] - [Base Churn Rate]",
+            "formatString": "+0.0%;-0.0%;0.0%",
+            "displayFolder": "2 Rates",
+            "lineageTag": "230858af-d033-49c8-84cb-66e8238c07d8"
+          },
+          {
+            "name": "Churn Lift",
+            "expression": "DIVIDE ( [Churn Rate], [Base Churn Rate] )",
+            "formatString": "0.00\"x\"",
+            "displayFolder": "2 Rates",
+            "lineageTag": "82d9a320-cae7-4c2e-b6a6-4c38d8973e8a"
+          },
+          {
+            "name": "Churn Rate No RM",
+            "expression": "CALCULATE ( [Churn Rate], fact_customers[rm_status] = \"No RM\" )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Rates",
+            "lineageTag": "55c8ebea-663b-45fb-af03-d89ae896964f"
+          },
+          {
+            "name": "Churn Rate With RM",
+            "expression": "CALCULATE ( [Churn Rate], fact_customers[rm_status] = \"RM assigned\" )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Rates",
+            "lineageTag": "2df211ef-c4eb-4f01-b386-a2f6ab405704"
+          },
+          {
+            "name": "Total Balance AED",
+            "expression": "SUM ( fact_customers[avg_monthly_balance] )",
+            "formatString": "#,0",
+            "displayFolder": "3 Money (AED)",
+            "lineageTag": "7b1af856-cbd1-4814-a6ab-6a084d0cc1a9"
+          },
+          {
+            "name": "Balance Lost AED",
+            "expression": "CALCULATE ( [Total Balance AED], fact_customers[churned] = 1 )",
+            "formatString": "#,0",
+            "displayFolder": "3 Money (AED)",
+            "lineageTag": "10147787-af7b-43f5-a644-a2207f391426"
+          },
+          {
+            "name": "Pct Balance Lost",
+            "expression": "DIVIDE ( [Balance Lost AED], [Total Balance AED] )",
+            "formatString": "0.0%",
+            "displayFolder": "3 Money (AED)",
+            "lineageTag": "e07aff68-8dc7-4e26-9015-5f7d2c76516c"
+          },
+          {
+            "name": "Avg Balance Churned",
+            "expression": "CALCULATE ( AVERAGE ( fact_customers[avg_monthly_balance] ), fact_customers[churned] = 1 )",
+            "formatString": "#,0",
+            "displayFolder": "3 Money (AED)",
+            "lineageTag": "1020feaf-2590-4958-9724-979f1b97e361"
+          },
+          {
+            "name": "Avg Balance Retained",
+            "expression": "CALCULATE ( AVERAGE ( fact_customers[avg_monthly_balance] ), fact_customers[churned] = 0 )",
+            "formatString": "#,0",
+            "displayFolder": "3 Money (AED)",
+            "lineageTag": "5624e877-bd75-45d2-b1a2-85a191db92b1"
+          },
+          {
+            "name": "Share of Customers",
+            "expression": "DIVIDE ( [Customers], CALCULATE ( [Customers], ALLEXCEPT ( fact_customers, fact_customers[data_scope] ) ) )",
+            "formatString": "0.0%",
+            "displayFolder": "4 Mix",
+            "lineageTag": "9f566bc3-5d81-4579-a81c-2345785b7124"
+          },
+          {
+            "name": "Share of Churners",
+            "expression": "DIVIDE ( [Churned Customers], CALCULATE ( [Churned Customers], ALLEXCEPT ( fact_customers, fact_customers[data_scope] ) ) )",
+            "formatString": "0.0%",
+            "displayFolder": "4 Mix",
+            "lineageTag": "ec2db2c3-4fc5-4bbb-b3a0-e1f1b269385e"
+          },
+          {
+            "name": "Share of Balance Lost",
+            "expression": "DIVIDE ( [Balance Lost AED], CALCULATE ( [Balance Lost AED], ALLEXCEPT ( fact_customers, fact_customers[data_scope] ) ) )",
+            "formatString": "0.0%",
+            "displayFolder": "4 Mix",
+            "lineageTag": "92179174-fe23-49ce-8a0c-d288e1514c6b"
+          },
+          {
+            "name": "Pct With RM",
+            "expression": "DIVIDE ( CALCULATE ( [Customers], fact_customers[rm_status] = \"RM assigned\" ), [Customers] )",
+            "formatString": "0.0%",
+            "displayFolder": "5 Behaviour",
+            "lineageTag": "a897434c-fa8c-4388-ba57-fd23ea993b22"
+          },
+          {
+            "name": "Pct Single Product",
+            "expression": "DIVIDE ( CALCULATE ( [Customers], fact_customers[products_band] = \"1\" ), [Customers] )",
+            "formatString": "0.0%",
+            "displayFolder": "5 Behaviour",
+            "lineageTag": "ab2b6976-bf87-4868-943b-c0af19ec62df"
+          },
+          {
+            "name": "Avg Products",
+            "expression": "AVERAGE ( fact_customers[num_products] )",
+            "formatString": "0.00",
+            "displayFolder": "5 Behaviour",
+            "lineageTag": "1f36d1b8-0af8-4c47-87bd-5f435784ded8"
+          },
+          {
+            "name": "DQ Products Below Flags",
+            "expression": "SUM ( fact_customers[dq_products_lt_flags] )",
+            "formatString": "#,0",
+            "displayFolder": "6 Data quality",
+            "lineageTag": "0c12c37f-1715-421d-b378-58f157bd6709"
+          },
+          {
+            "name": "DQ Tenure Above Adult Years",
+            "expression": "SUM ( fact_customers[dq_tenure_gt_adult_years] )",
+            "formatString": "#,0",
+            "displayFolder": "6 Data quality",
+            "lineageTag": "149c3ce3-cb0b-4085-9c90-35c02015a451"
+          },
+          {
+            "name": "Priority Customers",
+            "expression": "COUNTROWS ( priority_list )",
+            "formatString": "#,0",
+            "displayFolder": "7 Priority",
+            "lineageTag": "7f4f861f-9e4e-41c6-bfae-696d2a774b2a"
+          },
+          {
+            "name": "Expected Balance At Risk",
+            "expression": "SUM ( priority_list[expected_balance_at_risk] )",
+            "formatString": "#,0",
+            "displayFolder": "7 Priority",
+            "lineageTag": "8eb764c9-d540-4891-ad15-c9da31869117"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "b7458014-ec61-4892-9c57-2cff4f026acc",
+        "fromTable": "fact_customers",
+        "fromColumn": "customer_segment",
+        "toTable": "dim_segment",
+        "toColumn": "customer_segment",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "34b49447-3a72-4bc5-b8a9-4d9f3ab4b6ff",
+        "fromTable": "fact_customers",
+        "fromColumn": "tenure_band",
+        "toTable": "dim_tenure",
+        "toColumn": "tenure_band",
+        "crossFilteringBehavior": "oneDirection"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"fact_customers\",\"dim_segment\",\"dim_tenure\",\"priority_list\",\"_Measures\"]"
+      }
+    ]
+  }
+}

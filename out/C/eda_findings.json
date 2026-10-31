@@ -1,0 +1,78 @@
+{
+  "base_churn_rate": 0.1578,
+  "customers": 10000,
+  "churned": 1578,
+  "churn_tenure_lt1": 0.2808,
+  "churn_tenure_lt1_n": 1613,
+  "churn_tenure_1_3": 0.176,
+  "churn_tenure_1_3_n": 2654,
+  "churn_tenure_3_7": 0.1395,
+  "churn_tenure_3_7_n": 2931,
+  "churn_tenure_7_15": 0.1005,
+  "churn_tenure_7_15_n": 2160,
+  "churn_tenure_15plus": 0.0498,
+  "churn_tenure_15plus_n": 642,
+  "tenure_lt1_vs_15plus_ratio": 5.64,
+  "churn_products_1": 0.3607,
+  "churn_products_2": 0.1215,
+  "churn_recency_0_30": 0.1176,
+  "churn_recency_31_60": 0.1968,
+  "churn_recency_61_90": 0.2969,
+  "churn_recency_90plus": 0.4872,
+  "churn_engagement_0_20": 0.3706,
+  "churn_engagement_21_40": 0.2528,
+  "churn_engagement_41_60": 0.1613,
+  "churn_engagement_61_80": 0.0993,
+  "churn_engagement_81_100": 0.0555,
+  "churn_complaints_0": 0.1313,
+  "churn_complaints_1": 0.2008,
+  "churn_complaints_2plus": 0.3092,
+  "aed_balance_lost_total": 22468465.0,
+  "pct_balance_lost": 0.0656,
+  "churn_segment_mass_market": 0.2178,
+  "share_churners_mass_market": 0.7307,
+  "share_balance_lost_mass_market": 0.1882,
+  "churn_segment_mass_affluent": 0.1196,
+  "share_churners_mass_affluent": 0.2072,
+  "share_balance_lost_mass_affluent": 0.3068,
+  "churn_segment_affluent": 0.0526,
+  "share_churners_affluent": 0.0494,
+  "share_balance_lost_affluent": 0.2478,
+  "churn_segment_private_banking": 0.0409,
+  "share_churners_private_banking": 0.0127,
+  "share_balance_lost_private_banking": 0.2571,
+  "share_balance_lost_top2_segments": 0.5049,
+  "share_churners_mass_market_pct": 73.1,
+  "churn_rm_no_mass_market": 0.2244,
+  "churn_rm_yes_mass_market": 0.1086,
+  "churn_rm_no_mass_affluent": 0.1227,
+  "churn_rm_yes_mass_affluent": 0.0701,
+  "churn_rm_no_affluent": 0.1014,
+  "churn_rm_yes_affluent": 0.0414,
+  "churn_rm_no_private_banking": 0.0778,
+  "churn_rm_yes_private_banking": 0.0326,
+  "rm_coverage_mass_affluent": 0.0574,
+  "top_drivers": [
+    {
+      "feature": "num_products",
+      "cramers_v": 0.336
+    },
+    {
+      "feature": "last_transaction_days_ago",
+      "cramers_v": 0.202
+    },
+    {
+      "feature": "digital_engagement_score",
+      "cramers_v": 0.197
+    },
+    {
+      "feature": "customer_segment",
+      "cramers_v": 0.186
+    },
+    {
+      "feature": "avg_monthly_balance",
+      "cramers_v": 0.172
+    }
+  ],
+  "cramers_v_num_products": 0.336
+}

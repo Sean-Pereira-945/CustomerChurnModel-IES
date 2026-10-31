@@ -1,0 +1,89 @@
+// Meridian Trust Bank — DAX measures
+// Create a blank table named _Measures (Home > Enter data > OK), then add each measure to it.
+// Display folder shown in [brackets]. Format string given after "Format:".
+
+// ---------- [1 Volume] ----------
+Customers = COUNTROWS ( fact_customers )
+// Format: #,0
+
+Churned Customers = CALCULATE ( COUNTROWS ( fact_customers ), fact_customers[churned] = 1 )
+// Format: #,0
+
+Retained Customers = [Customers] - [Churned Customers]
+// Format: #,0
+
+// ---------- [2 Rates] ----------
+Churn Rate = DIVIDE ( [Churned Customers], [Customers] )
+// Format: 0.0%
+
+// Overall churn for the selected data scope, ignoring every other filter (reference lines, lift)
+Base Churn Rate =
+CALCULATE ( [Churn Rate], ALLEXCEPT ( fact_customers, fact_customers[data_scope] ) )
+// Format: 0.0%
+
+Churn Rate vs Base = [Churn Rate] - [Base Churn Rate]
+// Format: +0.0%;-0.0%;0.0%
+
+Churn Lift = DIVIDE ( [Churn Rate], [Base Churn Rate] )
+// Format: 0.00"x"
+
+Churn Rate No RM =
+CALCULATE ( [Churn Rate], fact_customers[rm_status] = "No RM" )
+// Format: 0.0%
+
+Churn Rate With RM =
+CALCULATE ( [Churn Rate], fact_customers[rm_status] = "RM assigned" )
+// Format: 0.0%
+
+// ---------- [3 Money (AED)] ----------
+Total Balance AED = SUM ( fact_customers[avg_monthly_balance] )
+// Format: #,0
+
+Balance Lost AED =
+CALCULATE ( [Total Balance AED], fact_customers[churned] = 1 )
+// Format: #,0
+
+Pct Balance Lost = DIVIDE ( [Balance Lost AED], [Total Balance AED] )
+// Format: 0.0%
+
+Avg Balance Churned =
+CALCULATE ( AVERAGE ( fact_customers[avg_monthly_balance] ), fact_customers[churned] = 1 )
+// Format: #,0
+
+Avg Balance Retained =
+CALCULATE ( AVERAGE ( fact_customers[avg_monthly_balance] ), fact_customers[churned] = 0 )
+// Format: #,0
+
+// ---------- [4 Mix: volume vs value] ----------
+Share of Customers =
+DIVIDE ( [Customers], CALCULATE ( [Customers], ALLEXCEPT ( fact_customers, fact_customers[data_scope] ) ) )
+// Format: 0.0%
+
+Share of Churners =
+DIVIDE ( [Churned Customers],
+         CALCULATE ( [Churned Customers], ALLEXCEPT ( fact_customers, fact_customers[data_scope] ) ) )
+// Format: 0.0%
+
+Share of Balance Lost =
+DIVIDE ( [Balance Lost AED],
+         CALCULATE ( [Balance Lost AED], ALLEXCEPT ( fact_customers, fact_customers[data_scope] ) ) )
+// Format: 0.0%
+
+// ---------- [5 Behaviour] ----------
+Pct With RM =
+DIVIDE ( CALCULATE ( [Customers], fact_customers[rm_status] = "RM assigned" ), [Customers] )
+// Format: 0.0%
+
+Pct Single Product =
+DIVIDE ( CALCULATE ( [Customers], fact_customers[products_band] = "1" ), [Customers] )
+// Format: 0.0%
+
+Avg Products = AVERAGE ( fact_customers[num_products] )
+// Format: 0.00
+
+// ---------- [6 Data quality] ----------
+DQ Products Below Flags = SUM ( fact_customers[dq_products_lt_flags] )
+// Format: #,0
+
+DQ Tenure Above Adult Years = SUM ( fact_customers[dq_tenure_gt_adult_years] )
+// Format: #,0

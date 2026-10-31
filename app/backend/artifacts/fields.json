@@ -1,0 +1,78 @@
+{
+  "fields": [
+    {
+      "name": "customer_segment",
+      "label": "Customer segment",
+      "kind": "select",
+      "options": [
+        "Mass Market",
+        "Mass Affluent",
+        "Affluent",
+        "Private Banking"
+      ],
+      "default": "Mass Market"
+    },
+    {
+      "name": "tenure_years",
+      "label": "Tenure (years)",
+      "kind": "num",
+      "min": 0,
+      "max": 60,
+      "default": 3.0
+    },
+    {
+      "name": "avg_monthly_balance",
+      "label": "Avg monthly balance (AED)",
+      "kind": "num",
+      "min": 0,
+      "max": 5000000,
+      "default": 15000
+    },
+    {
+      "name": "num_products",
+      "label": "Products held",
+      "kind": "int",
+      "min": 1,
+      "max": 6,
+      "default": 2
+    },
+    {
+      "name": "digital_engagement_score",
+      "label": "Digital engagement (0-100)",
+      "kind": "num",
+      "min": 0,
+      "max": 100,
+      "default": 50
+    },
+    {
+      "name": "complaint_count_last_year",
+      "label": "Complaints last year",
+      "kind": "int",
+      "min": 0,
+      "max": 20,
+      "default": 0
+    },
+    {
+      "name": "nps_score",
+      "label": "NPS score (-100 to 100)",
+      "kind": "int",
+      "min": -100,
+      "max": 100,
+      "default": 10
+    },
+    {
+      "name": "relationship_manager_assigned",
+      "label": "Relationship manager assigned",
+      "kind": "binary",
+      "default": 0
+    },
+    {
+      "name": "last_transaction_days_ago",
+      "label": "Days since last transaction",
+      "kind": "int",
+      "min": 0,
+      "max": 2000,
+      "default": 20
+    }
+  ]
+}

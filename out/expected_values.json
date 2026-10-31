@@ -1,0 +1,75 @@
+{
+  "customers": 10000,
+  "churned": 1578,
+  "churn_rate": 0.1578,
+  "balance_lost_aed": 22468465.0,
+  "pct_balance_lost": 0.0656,
+  "churn_by_tenure": {
+    "1 to 3": 0.176,
+    "3 to 7": 0.1395,
+    "7 to 15": 0.1005,
+    "> 15": 0.0498,
+    "Less than 1": 0.2808
+  },
+  "churn_by_products": {
+    "1": 0.3607,
+    "2": 0.1215,
+    "3": 0.0582,
+    "4+": 0.0443
+  },
+  "churn_by_recency": {
+    "0-30 days": 0.1176,
+    "31-60 days": 0.1968,
+    "61-90 days": 0.2969,
+    "90+ days": 0.4872
+  },
+  "churn_by_engagement": {
+    "0-20": 0.3706,
+    "21-40": 0.2528,
+    "41-60": 0.1613,
+    "61-80": 0.0993,
+    "81-100": 0.0555
+  },
+  "churn_by_complaints": {
+    "0": 0.1313,
+    "1": 0.2008,
+    "2+": 0.3092
+  },
+  "churn_by_nps": {
+    "High (61-100)": 0.0713,
+    "Low (1-30)": 0.1742,
+    "Mid (31-60)": 0.1127,
+    "Negative (<=0)": 0.2619
+  },
+  "churn_by_segment": {
+    "Affluent": 0.0526,
+    "Mass Affluent": 0.1196,
+    "Mass Market": 0.2178,
+    "Private Banking": 0.0409
+  },
+  "balance_lost_share_by_segment": {
+    "Affluent": 0.2478,
+    "Mass Affluent": 0.3068,
+    "Mass Market": 0.1882,
+    "Private Banking": 0.2571
+  },
+  "churn_by_segment_rm": {
+    "Affluent": {
+      "No RM": 0.1014,
+      "RM assigned": 0.0414
+    },
+    "Mass Affluent": {
+      "No RM": 0.1227,
+      "RM assigned": 0.0701
+    },
+    "Mass Market": {
+      "No RM": 0.2244,
+      "RM assigned": 0.1086
+    },
+    "Private Banking": {
+      "No RM": 0.0778,
+      "RM assigned": 0.0326
+    }
+  },
+  "all_50k_churn_rate": 0.1578
+}
